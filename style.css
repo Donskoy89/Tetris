@@ -1,14 +1,11 @@
 body {
-    background-color: #000;
-    color: white;
+    background-color: black;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 h1 {
+    font-family: "Press Start 2P", sans-serif;
     text-transform: uppercase;
-    font-size: 54px;
-    text-align: center;
-    font-family: 'Press start 2P', Arial;
-}  
-canvas {
-    display: block;
-    margin: 10px auto;
 }
